@@ -17,7 +17,7 @@
  new DriverManagerDataSource();
   dataSource.setDriverClassName("com.mysql.jdbc.Driver");
   dataSource.setUrl("jdbc:mysql://localhost:3306/sde");
-  dataSource.setUsername("root"); dataSource.setPassword("Manucravo1*"); return
+  dataSource.setUsername("root"); dataSource.setPassword("Senha do seu BD"); return
  dataSource; }
  
  @Bean public JpaVendorAdapter JpaVendorAdapter() { HibernateJpaVendorAdapter
